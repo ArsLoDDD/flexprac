@@ -1,0 +1,150 @@
+/* Body */
+.container {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 1.5em 0;
+}
+
+p {
+	margin: 0;
+	padding: 1em 0;
+}
+
+/* Footer */
+
+.header-title, .header-content {
+color: white;
+padding: 1em;
+z-index: 998;
+padding-bottom: 1px;
+
+
+}
+.bg {
+    position: absolute;
+        background: white 
+    url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    opacity: 0.9;
+z-index: -999;
+}
+.header-button {
+    display: inline-block;
+    background: black;
+    color: white;
+border: 1px solid gray;
+padding: 1.2em 1em;
+margin: 6em 0;
+text-decoration: none;
+z-index: 999;
+
+}
+.header-button:hover{
+    background: white;
+    color: black;
+}
+
+/* Info one */
+
+.info-one {
+    color: black;
+    background: white;
+}
+
+.info-one-content {
+    columns: 2;
+font-size: 1em;
+max-width: 80%;
+margin-left: 7em;
+
+}
+
+/* Main box */
+
+.main-box {
+
+    background: rgb(75, 75, 75);
+
+
+}
+.main-box img {
+
+}
+.main-box ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+    
+}
+.main-box li {
+    background: white;
+    max-width: 25%;
+    min-height: 55%;
+    padding-bottom: 6em;
+
+}
+/* Info two */
+.info-two {
+    background: white;
+
+}
+.info-two h2 {
+padding: 3em;
+
+}
+.info-two p {
+    /* padding-bottom: 3em; */
+}
+/* PRE FOOTER */
+
+.pre-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+color: white;
+
+}
+.pre-footer p {
+
+}
+.pre-footer-box1 {
+    min-width: 50%;
+    max-width: 50%;
+    background: rgb(93, 93, 255);
+}
+.pre-footer-box2 {
+    min-width: 50%;
+    max-width: 50%;
+    background: rgb(63, 63, 63);
+}
+/* footer */
+
+.footer {
+    background: black;
+    color: white;
+    min-width: 100%;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(116, 93, 247);
+}
+.footer p {
+
+}
