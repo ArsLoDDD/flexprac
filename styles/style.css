@@ -15,7 +15,7 @@ h1,
 h2,
 h3 {
 	margin: 0;
-
+padding: 1em;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 	padding: 1em 0;
 }
 
-/* Footer */
+/* Header */
 
 .header-title, .header-content {
 color: white;
@@ -105,10 +105,12 @@ margin-left: 7em;
 /* Info two */
 .info-two {
     background: white;
+padding: 2.5em 0;
+
 
 }
 .info-two h2 {
-padding: 3em;
+
 
 }
 .info-two p {
@@ -142,6 +144,10 @@ color: white;
     background: black;
     color: white;
     min-width: 100%;
+    display: flex;
+justify-content: space-around;
+padding: 1em 0;
+
 }
 .footer a {
     text-decoration: none;
